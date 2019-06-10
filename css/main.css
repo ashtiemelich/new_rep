@@ -79,7 +79,6 @@ nav {
     padding: 14.5px;
     color: #ccc;
     text-decoration: none;
-    background-color: #202020;
 }
 
 .burger-drop p {
@@ -91,13 +90,19 @@ nav {
 #burger:checked ~ .burger-drop {
     max-height: 500px;
     font-size: 24px;
+    min-height: calc(100vh - 60px);
+    background-color: #202020;
 }
 
 
 
 .burger-links:hover {
     background-color: #505050;
-    color: #fff;}
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 .burger-drop:hover p {
