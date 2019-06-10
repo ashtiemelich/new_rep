@@ -1,50 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+ <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <title>test task</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="icomoon/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
     <div class="wrap">
         <header>
-            <nav>
-                <a href="#" class="nav-link">
-                    Test Task - Menu
-                </a>
-                <a href="#" class="nav-link">
-                    Dashboard
-                </a>
-            </nav>
-            <div class="search">
-                <input class="srch" type="text" placeholder="Search...">
+            <div class="header-wrapper">
+                <nav>
+                    <div class="burger-wrap nav-link">
+                        <input type="checkbox" id="burger">
+                        <label for="burger" class="burger-label"><span class="icon-menu11"></span><span class="icon-arrow-back"></span></label>
+                        <div class="burger-drop">
+                            <a href="#" class="burger-links">
+                                <span class="icon-dashboard2">
+                                    <p class="name">FILTERS</p>
+                                </span>
+                            </a>
+                            <a href="#" class="burger-links">
+                                <span class="icon-credit-card4">
+                                    <p class="name">PORTFOLIOS</p>
+                                </span>
+                            </a>
+                            <a href="#" class="burger-links">
+                                <span class="icon-group2">
+                                    <p class="name">EXPLICIT RIGHTS</p>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="#" class="nav-link">
+                        Test Task - Menu
+                    </a>
+                    <span class="icon-keyboard-arrow-right"></span>
+                    <a href="#" class="nav-link">
+                        Dashboard
+                    </a>
+                </nav>
+                <div class="search">
+                    <span class="icon-search8"></span>
+                    <input class="srch" type="text" placeholder="Search..">
+                    <span class="icon-arrow-drop-down"></span>
+                </div>
             </div>
         </header>
-        <aside>
-            <div class="hamburger">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="menu">
-                <div class="menu-link">
-                    <div class="icon"><img src="" alt=""></div>
-                    <div class="some">FILTERS</div>
-                </div>
-                <div class="menu-link">
-                    <div class="icon"><img src="" alt=""></div>
-                    <div class="some">PORTFOLIOS</div>
-                </div>
-                <div class="menu-link">
-                    <div class="icon"><img src="" alt=""></div>
-                    <div class="some">EXPLICIT RIGHTS</div>
-                </div>
-            </div>
-        </aside>
-        <main>
-            
-        </main>
+        <footer></footer>
     </div>
 </body></html>
